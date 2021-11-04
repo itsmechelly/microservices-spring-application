@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 @SpringBootApplication
-@EnableHystrix
+@EnableHystrix// for Hystrix circuit breakers and dashboard
 @EnableDiscoveryClient
 public class GatewayApplication {
 
