@@ -12,6 +12,6 @@ public class ControllerB {
 
 	@GetMapping("/service/b")
 	public String haandleB() {
-		return "Service B: " + instanceId;
+		return "Service B : " + instanceId;
 	}
 }
