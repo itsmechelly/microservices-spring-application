@@ -29,7 +29,7 @@ public class ControllerA {
 	@HystrixCommand(fallbackMethod = "handleAFallback")
 	public String handleA() {
 		String url = "http://service-b/service/b";
-		return "Service A calling B:  " + template.getForObject(url, String.class);
+		return "Service A calling B: " + template.getForObject(url, String.class);
 	}
 
 	public String handleAFallback(Throwable t) {
