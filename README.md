@@ -1,4 +1,4 @@
-# JohnBryceClasses_Microservices
+# microservices-spring-application
 ![image](https://user-images.githubusercontent.com/60425986/230127250-37cf56d3-283d-4a29-88dd-0d1087906c56.png)
 
 ## 🤔 What is the purpose of this application?
